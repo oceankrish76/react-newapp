@@ -1,0 +1,43 @@
+.services-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services-page h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.services-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h3 {
+  font-size: 1.8rem;
+  color: #764ba2;
+  margin-bottom: 1rem;
+}
+
+.service-item p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
